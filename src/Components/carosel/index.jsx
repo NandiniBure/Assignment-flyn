@@ -4,8 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { ArrowBigRight, ArrowLeftToLine, ArrowRight} from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Carosel = () => {
+
   var settings = {
     dots: true,
     infinite: false,
@@ -87,23 +89,25 @@ const Carosel = () => {
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy
               </p>
-              <button
-                style={{
-                  backgroundColor: "white",
-                  color: "#ed4155",
-                  outline: "none",
-                  border: "none",
-                  display: "flex",
-                  padding: "10px",
-                  fontWeight: "bold",
-                }}
-              >
-                <span>READ MORE </span>{" "}
-                <img
-                  style={{ width: "30px", height: "15px" }}
-                  src="./arrow.png"
-                ></img>
-              </button>
+              <Link to="https://www.fylehq.com/">
+                <button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#ed4155",
+                    outline: "none",
+                    border: "none",
+                    display: "flex",
+                    padding: "10px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  <span>READ MORE </span>{" "}
+                  <img
+                    style={{ width: "30px", height: "15px" }}
+                    src="./arrow.png"
+                  ></img>
+                </button>
+              </Link>
             </div>
             <img className="img-carosel" src="./2.png" alt="Service 1" />
           </div>
@@ -123,23 +127,25 @@ const Carosel = () => {
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy
               </p>
-              <button
-                style={{
-                  backgroundColor: "white",
-                  color: "#ed4155",
-                  outline: "none",
-                  border: "none",
-                  display: "flex",
-                  padding: "10px",
-                  fontWeight: "bold",
-                }}
-              >
-                <span>READ MORE </span>{" "}
-                <img
-                  style={{ width: "30px", height: "15px" }}
-                  src="./arrow.png"
-                ></img>
-              </button>
+              <Link to="https://www.fylehq.com/">
+                <button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#ed4155",
+                    outline: "none",
+                    border: "none",
+                    display: "flex",
+                    padding: "10px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  <span>READ MORE </span>{" "}
+                  <img
+                    style={{ width: "30px", height: "15px" }}
+                    src="./arrow.png"
+                  ></img>
+                </button>
+              </Link>
             </div>
             <img className="img-carosel" src="./3.png" alt="Service 2" />
           </div>
@@ -159,23 +165,25 @@ const Carosel = () => {
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy
               </p>
-              <button
-                style={{
-                  backgroundColor: "white",
-                  color: "#ed4155",
-                  outline: "none",
-                  border: "none",
-                  display: "flex",
-                  padding: "10px",
-                  fontWeight: "bold",
-                }}
-              >
-                <span>READ MORE </span>{" "}
-                <img
-                  style={{ width: "30px", height: "15px" }}
-                  src="./arrow.png"
-                ></img>
-              </button>
+              <Link to="https://www.fylehq.com/">
+                <button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#ed4155",
+                    outline: "none",
+                    border: "none",
+                    display: "flex",
+                    padding: "10px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  <span>READ MORE </span>{" "}
+                  <img
+                    style={{ width: "30px", height: "15px" }}
+                    src="./arrow.png"
+                  ></img>
+                </button>
+              </Link>
             </div>
             <img className="img-carosel" src="./2.png" alt="Service 3" />
           </div>
@@ -195,23 +203,25 @@ const Carosel = () => {
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy
               </p>
-              <button
-                style={{
-                  backgroundColor: "white",
-                  color: "#ed4155",
-                  outline: "none",
-                  border: "none",
-                  display: "flex",
-                  padding: "10px",
-                  fontWeight: "bold",
-                }}
-              >
-                <span>READ MORE </span>{" "}
-                <img
-                  style={{ width: "30px", height: "15px" }}
-                  src="./arrow.png"
-                ></img>
-              </button>
+              <Link to="https://www.fylehq.com/">
+                <button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#ed4155",
+                    outline: "none",
+                    border: "none",
+                    display: "flex",
+                    padding: "10px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  <span>READ MORE </span>{" "}
+                  <img
+                    style={{ width: "30px", height: "15px" }}
+                    src="./arrow.png"
+                  ></img>
+                </button>
+              </Link>
             </div>
             <img className="img-carosel" src="./3.png" alt="Service 4" />
           </div>

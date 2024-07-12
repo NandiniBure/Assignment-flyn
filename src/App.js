@@ -6,7 +6,7 @@ import Products from './Components/OurProduct';
 import Choose from './Components/Choose';
 import End from './Components/End';
 import Footer from './Components/Footer';
-
+import { BrowserRouter as Router, Switch, useLocation } from "react-router-dom";
 function App() {
   return (
     <div className='App'>
